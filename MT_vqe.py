@@ -135,4 +135,4 @@ def multi_run(runs, backend, opt, shots):
 
 
 # Uncomment following line to run example
-# save_results("test.csv", multi_run(10, get_backend(False), SPSA(maxiter=100), 1024), 1024, False, "ADAM")
+# save_results("test.csv", multi_run(10, get_backend(False), SPSA(maxiter=100), 1024), 1024, False, "SPSA")
